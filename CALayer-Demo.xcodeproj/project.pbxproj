@@ -12,7 +12,7 @@
 		AE2BC3701FC937DE00689288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2BC36E1FC937DE00689288 /* Main.storyboard */; };
 		AE2BC3721FC937DE00689288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2BC3711FC937DE00689288 /* Assets.xcassets */; };
 		AE2BC3751FC937DE00689288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2BC3731FC937DE00689288 /* LaunchScreen.storyboard */; };
-		AE2BC37F1FC99F8100689288 /* TableViewControllerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2BC37E1FC99F8100689288 /* TableViewControllerVC.swift */; };
+		AE2FA6101FDD114200CA30AF /* LayerAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2FA60F1FDD114200CA30AF /* LayerAnimationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		AE2BC3741FC937DE00689288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2BC3761FC937DE00689288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE2BC37D1FC94D7F00689288 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		AE2BC37E1FC99F8100689288 /* TableViewControllerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerVC.swift; sourceTree = "<group>"; };
+		AE2FA60F1FDD114200CA30AF /* LayerAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerAnimationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +60,11 @@
 			children = (
 				AE2BC36A1FC937DE00689288 /* AppDelegate.swift */,
 				AE2BC36C1FC937DE00689288 /* ViewController.swift */,
+				AE2FA60F1FDD114200CA30AF /* LayerAnimationVC.swift */,
 				AE2BC36E1FC937DE00689288 /* Main.storyboard */,
 				AE2BC3711FC937DE00689288 /* Assets.xcassets */,
 				AE2BC3731FC937DE00689288 /* LaunchScreen.storyboard */,
 				AE2BC3761FC937DE00689288 /* Info.plist */,
-				AE2BC37E1FC99F8100689288 /* TableViewControllerVC.swift */,
 			);
 			path = "CALayer-Demo";
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2BC36D1FC937DE00689288 /* ViewController.swift in Sources */,
-				AE2BC37F1FC99F8100689288 /* TableViewControllerVC.swift in Sources */,
 				AE2BC36B1FC937DE00689288 /* AppDelegate.swift in Sources */,
+				AE2FA6101FDD114200CA30AF /* LayerAnimationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
